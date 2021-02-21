@@ -1,0 +1,9 @@
+.AdminHome {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    display: grid;
+    grid-template-rows: 8vh 100vh 30vh;
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+

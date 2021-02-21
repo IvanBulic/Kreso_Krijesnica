@@ -1,0 +1,58 @@
+.Admin{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.AdminDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+  background-color: seagreen;
+  color: white;
+  border-radius: 10px;
+}
+.Login{
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.Email{
+  margin-top: 10px;
+}
+.EmailUpis{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.Password{
+
+}
+.PasswordUpis{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.RememberMe{
+  margin-bottom: 10px;
+}
+.Submit{
+  float: right;
+  padding: 10px 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out 0s;
+  color: seagreen;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid seagreen;
+}
+
+.Submit:hover{
+  color:  white;
+  background-color: seagreen;
+  border: 2px solid white;
+}

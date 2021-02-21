@@ -1,0 +1,159 @@
+.Main
+{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    background-color: white;
+    width: 100%;
+    height:100%;
+}
+.Naslov{
+    grid-column: 1/11;
+    grid-row:1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
+    font-size: 3vmax;
+    color: white;
+    background-color: seagreen;
+    border-radius: 0px 0px 10px 10px;
+}
+.PopisNaslov{
+    grid-column: 1/11;
+    grid-row:2/3;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: seagreen;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:5px;
+}
+.Popis
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1/11;
+    grid-row: 3/21;
+    background-color: white;
+    margin: 10px 0px;
+    border: 2px solid seagreen;
+    overflow: auto;
+    
+    border-radius: 10px 10px 10px 10px;
+}
+.PopisDiv{
+    width: 95%;
+    min-height: 50px;
+    border-bottom: 2px solid seagreen;
+    display: grid;  
+    grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+.RedniBroj{
+ grid-column: 1/2;
+ grid-row: 1/3;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.Datum{
+  grid-column: 2/8;
+  grid-row: 1/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*.Lokacija{
+grid-column: 6/ 10;
+display: flex;
+align-items: center;
+justify-content: center;
+}*/
+.Lat{
+  grid-column: 8/14;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.Lng{
+  grid-column: 8/14;
+  grid-row: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.Opis{
+grid-column: 14 / 20;
+grid-row: 1/3;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/*.Videno{
+grid-column: 18 / 19;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+font-size: 20px;
+margin: 12px;
+}*/
+.Izbrisi{
+grid-column: 20 / 21;
+grid-row: 1/3;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+font-size: 20px;
+margin: 12px;
+}
+/*.OstaleOpcije{
+grid-column: 20 / 21;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+font-size: 20px;
+margin: 12px;
+
+}*/
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px seagreen; 
+  border-radius: 10px;  
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+  background: seagreen; 
+  border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgreen; 
+}
+
+@media only screen and(max-width: 600px) {
+    .Main {
+        background-color: lightblue;
+    }
+}
+@media only screen and(max-width: 900px) and(min-width: 600px) {
+    .Main {
+        background-color: red;
+    }
+}

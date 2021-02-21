@@ -1,0 +1,8 @@
+.App{
+  margin-left: 7vw;
+  margin-right: 7vw;
+  display: grid;
+  grid-template-rows: 8vh 180vh 30vh;
+  font-family: 'Roboto';
+  scroll-behavior: smooth;
+}

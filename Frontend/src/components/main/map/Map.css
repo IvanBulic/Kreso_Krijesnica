@@ -1,0 +1,15 @@
+#addmarker {
+    margin-bottom: 30px;
+}
+#map {
+    height: 100%;
+    width: 100%;
+z-index: 1;
+}
+.popup
+{
+    display:flex;
+    flex-direction: column;
+    height:100px;
+    width:100px;
+}

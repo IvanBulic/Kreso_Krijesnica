@@ -1,0 +1,108 @@
+.DodajLokaciju {
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-family : Roboto;
+}
+.DodajLokacijuDiv {
+    display : grid;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 15vh;
+    background-color : seagreen;
+    color : white;
+    border-radius : 10px;
+    grid-template-rows : repeat(20, 1fr);
+    grid-template-columns : repeat(20, 1fr);
+    padding: 3vh 3vw;
+}
+.Povratak{
+    grid-row: 1/3;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+.Header{
+    grid-row: 1/3;
+    grid-column: 3/19;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+
+}
+.KartaNaslov{
+    font-size: 20px;
+    grid-row: 3 / 4;
+    grid-column: 1 / 21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Karta{
+    background-color: black;
+    grid-row : 4 / 14;
+    grid-column : 1 / 21;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    overflow: hidden;
+
+}
+.DohvatiMojuLokacijuDiv {
+}
+.DohvatiMojuLokaciju {
+    transition: all 150ms ease-in-out 0s;
+    color: seagreen;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid seagreen;
+    padding: 1vh 1vw;
+}
+.DohvatiMojuLokaciju:hover {
+    color: white;
+    background-color: seagreen;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.Opis{
+    grid-row : 15 / 16;
+    grid-column : 1 / 21;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size: 18px;
+}
+.OpisUpis{
+    grid-row : 16 / 18;
+    grid-column : 1 / 21;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    resize: none;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+.BotunDodajDiv {
+    grid-row: 19 / 21;
+    grid-column: 1 / 21;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.BotunDodaj {
+    transition: all 150ms ease-in-out 0s;
+    color: seagreen;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid seagreen;
+    padding: 1vh 1vw;
+}
+.BotunDodaj:hover {
+    color: white;
+    background-color: seagreen;
+    border: 1px solid white;
+    cursor: pointer;
+}

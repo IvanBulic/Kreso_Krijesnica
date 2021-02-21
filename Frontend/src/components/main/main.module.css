@@ -1,0 +1,167 @@
+.Main
+{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    background-color: white;
+    width: 100%;
+    height:100%;
+}
+.Naslov{
+    grid-column: 1/11;
+    grid-row:1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
+    font-size: 3vmax;
+    color: white;
+    background-color: seagreen;
+    border-radius: 0px 0px 10px 10px;
+}
+.Logo{
+  grid-row: 2/8;
+  grid-column: 1/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .Main {
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 600px) 
+{
+  .Main {
+  }
+}
+
+.Opis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row: 2/8;
+  grid-column: 6/11;
+  color: seagreen;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-size: 64px;
+}
+.NaslovMape{
+  grid-row: 8/9;
+  grid-column: 1/11;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: seagreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+.Karta
+{
+    margin-top: 10px;
+    grid-column: 1/11;
+    grid-row:9/16;
+    background-color:white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.PopisNaslov{
+    grid-column: 1/11;
+    grid-row:16/17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: seagreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+.Popis
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1/11;
+    grid-row: 17/21;
+    background-color: white;
+    margin: 10px 0px;
+    border: 2px solid seagreen;
+    overflow: auto;
+    
+    border-radius: 10px 10px 10px 10px;
+}
+.PopisDiv{
+    width: 95%;
+    min-height: 50px;
+    border-bottom: 2px solid seagreen;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    justify-content: space-between;
+}
+.RedniBrojPopis{
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.DatumPopis {
+  grid-column: 2/8;
+  grid-row: 1/3;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.LatPopis{
+  grid-column: 8/14;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.LngPopis{
+  grid-column: 8/14;
+  grid-row: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.OpisPopis{
+  grid-column : 14/20;
+  grid-row : 1/3;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.mapcontainer {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px seagreen; 
+    border-radius: 10px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: seagreen; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: darkgreen; 
+  }

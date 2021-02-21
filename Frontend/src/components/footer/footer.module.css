@@ -1,0 +1,67 @@
+.Footer{
+    height: 100%;
+    width: 100%;
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius:10px 10px 0px 0px ;
+}
+.FooterIcons{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 2vmax;
+}
+.FooterIconsFacebook{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding: 5px;
+    cursor: pointer;
+}
+.FooterIconsFacebook:hover{
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    color:seagreen;
+    transition: all 0.3s ease-in;
+}
+.FooterIconsEnvelope{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding: 5px;
+    cursor: pointer;
+}
+.FooterIconsEnvelope:hover{
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    color:seagreen;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.FooterIconsUserCog{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding: 5px;
+}
+.FooterIconsUserCog:hover{
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    color:seagreen;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.FooterRights{
+    margin-bottom: 2vh;
+}
+.FooterPageName{
+    font-family: 'Courgette', cursive;
+    font-size: 3vmax;
+}
